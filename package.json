@@ -1,0 +1,42 @@
+{
+  "name": "mac-address-lookup",
+  "version": "1.0.0",
+  "description": "A fast and lightweight library for MAC address vendor lookup using IEEE OUI database",
+  "main": "index.js",
+  "keywords": [
+    "mac",
+    "mac-address",
+    "oui",
+    "vendor",
+    "lookup",
+    "ieee",
+    "network",
+    "hardware",
+    "ethernet"
+  ],
+  "scripts": {
+    "test": "node test.js",
+    "example": "node example.js",
+    "prepublishOnly": "npm test",
+    "prepack": "npm test"
+  },
+  "author": "Bearboy80 <taogui6@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bearboy80/mac-address-lookup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bearboy80/mac-address-lookup/issues"
+  },
+  "homepage": "https://github.com/bearboy80/mac-address-lookup#readme",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "oui-data": "^1.1.362"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0"
+  }
+}

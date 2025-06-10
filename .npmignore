@@ -1,0 +1,29 @@
+# Development files
+test.js
+example.js
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node modules
+node_modules/
+
+# Coverage
+coverage/
+
+# Build files
+dist/
+build/ 
