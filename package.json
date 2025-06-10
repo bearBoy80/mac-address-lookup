@@ -1,6 +1,6 @@
 {
   "name": "mac-address-lookup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fast and lightweight library for MAC address vendor lookup using IEEE OUI database",
   "main": "index.js",
   "keywords": [
