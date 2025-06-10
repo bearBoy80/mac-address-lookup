@@ -193,7 +193,7 @@ This library uses the [oui-data](https://www.npmjs.com/package/oui-data) package
 
 ## Performance
 
-- Query time: < 1ms
+- Query time: < 100ms
 - Memory usage: ~4MB (depending on database size)
 - Database entries: 37,000+ OUI records
 
@@ -211,10 +211,14 @@ Issues and Pull Requests are welcome!
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Related Tools
+
+- [MAC Address Lookup](https://www.cyberchef.dev/mac-address-lookup) - Online MAC address lookup tool
+
 ## Changelog
 
 ### 1.0.0
 - Initial release
 - Basic MAC address lookup functionality
 - Multiple MAC address format support
-- Complete API interface 
+- Complete API interface
