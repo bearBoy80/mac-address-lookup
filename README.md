@@ -193,7 +193,7 @@ This library uses the [oui-data](https://www.npmjs.com/package/oui-data) package
 
 ## Performance
 
-- Query time: < 10ms
+- Query time: < 1ms
 - Memory usage: ~4MB (depending on database size)
 - Database entries: 37,000+ OUI records
 
